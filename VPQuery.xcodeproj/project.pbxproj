@@ -12,6 +12,7 @@
 		5453DCF31ED5C32200E568E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5453DCF21ED5C32200E568E0 /* ViewController.m */; };
 		5453DCF51ED5C32200E568E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5453DCF41ED5C32200E568E0 /* Assets.xcassets */; };
 		5453DCF81ED5C32300E568E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5453DCF61ED5C32300E568E0 /* Main.storyboard */; };
+		5453DD011ED71BE000E568E0 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 5453DD001ED71BE000E568E0 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		5453DCF41ED5C32200E568E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5453DCF71ED5C32300E568E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5453DCF91ED5C32300E568E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5453DCFF1ED71BE000E568E0 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		5453DD001ED71BE000E568E0 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 				5453DCEC1ED5C32200E568E0 /* AppDelegate.m */,
 				5453DCF11ED5C32200E568E0 /* ViewController.h */,
 				5453DCF21ED5C32200E568E0 /* ViewController.m */,
+				5453DCFF1ED71BE000E568E0 /* Model.h */,
+				5453DD001ED71BE000E568E0 /* Model.m */,
 				5453DCF41ED5C32200E568E0 /* Assets.xcassets */,
 				5453DCF61ED5C32300E568E0 /* Main.storyboard */,
 				5453DCF91ED5C32300E568E0 /* Info.plist */,
@@ -149,6 +154,7 @@
 				5453DCF31ED5C32200E568E0 /* ViewController.m in Sources */,
 				5453DCF01ED5C32200E568E0 /* main.m in Sources */,
 				5453DCED1ED5C32200E568E0 /* AppDelegate.m in Sources */,
+				5453DD011ED71BE000E568E0 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +268,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = VPQuery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = chendi.VPQuery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -274,6 +281,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = VPQuery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = chendi.VPQuery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
